@@ -1,0 +1,14 @@
+<mat-card>
+    <mat-card-content>
+        <section>
+            <mat-form-field>
+                <input matInput placeholder="Your name" [(ngModel)]="name">
+            </mat-form-field>
+                <mat-icon>check</mat-icon>
+            </button>              
+        </section>
+        <section>
+            <app-name [name]="name"></app-name>
+        </section>
+    </mat-card-content>
+</mat-card>
